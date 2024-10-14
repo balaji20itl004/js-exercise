@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function fabinacci(n){
+            let a=[0,1];
+            for(i=2; i<n; i++){
+                a[i] = a[i-1] + a[i-2];
+
+                }
+                return a.slice(0,n);
+            }
+           document.write(fabinacci(8))
+        
+    </script>
+</body>
+</html>
